@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test-api": "mocha ./api/test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 180000",
-    "reports": "start D:/WIR/Apitest/reports/mochawesome/mochawesome.html"
+    "reports": "start D:/WIR/Apitest/reports/mochawesome/mochawesome.html",
+    "testquasir": "npm run ./api/page/testquair.js"
+
   },
   "author": "Arka Gemilang",
   "dependencies": {
